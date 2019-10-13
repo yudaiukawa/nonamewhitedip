@@ -14,8 +14,8 @@
       <div class="photo">
         <img id="mypic" src="fa1.jpg" width="312" height="300">
         <div class="buttons">
-          <input class="button" type="button" value="👈" onclick="go_back()">
-          <input class="button" type="button" value="👉" onclick="go_forward()">
+          <input class="button" type="button" value="←" onclick="go_back()">
+          <input class="button" type="button" value="→" onclick="go_forward()">
         </div>
             <script>
             var pics_src = new Array("fa1.jpg","fa1.1.jpg","fa1.2.jpg");
@@ -47,11 +47,19 @@
               <p>Fucking Awesomeは、2003年にJason Dillと<br>フォトグラファーのMike Piscitelliによって<br>立ち上げられたスケートブランド。<br>まだあまり日本で取り扱われていない。</p>
             </div>
 
-            <select name='age'>
-              <option value='young'>１</option>
-              <option value='middle'>２</option>
-              <option value='senior'>３３</option>
-            </select>
+            <form class="form" action="noname.php" method="POST">
+              <input class="number" type="text" name="name" placeholder="個数を入力してください">
+              <input class="buy" type="submit" value="購入する">
+            </form>
       </div>
+      <footer>
+        <div class="last">
+            <ul>
+              <li><a href="#">お問合せ</a></li>
+              <li><a href="https://www.instagram.com/yudai_uk/?hl=ja">Instagram</a></li>
+              <li><a href="mailto:yudai1241.dy@gmail.com">Mail</a></li>
+            </ul>
+        </div>
+      </footer>
   </body>
 </html>
