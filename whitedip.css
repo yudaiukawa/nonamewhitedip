@@ -10,19 +10,24 @@
     color: whitesmoke;
     -webkit-text-stroke: 2px black;
   }
-}
 
+
+h1{
+  color: white;
+}
 h1 a{
   text-decoration: none;
 }
 
 .buttons{
-  margin-left: 95px;
+  margin-left: 126px;
 }
 
 .button{
   margin-right:25px;
   font-size: 20px;
+  border: solid 1px ;
+  border-radius: 20px;
 }
 
 .description h1{
@@ -38,3 +43,56 @@ h1 a{
 .description{
   text-align: center;
 }
+
+#mypic{
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.buy{
+  border: solid 1px brown;
+}
+
+.number{
+  border: solid 1px black;
+}
+
+.form{
+  text-align: center;
+}
+
+.last ul{
+  margin-bottom: 0;
+  text-align: center;
+  padding-top:14px;
+}
+
+footer{
+  background-color:lightgray;
+  margin-bottom: 0;
+  height: 50px;
+}
+
+.last ul li{
+  list-style: none;
+  display: block;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.last a{
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+.last a:hover{
+  opacity: 1.0;
+}
+
+
+
+}
+
